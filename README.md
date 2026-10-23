@@ -41,6 +41,13 @@ contents before rerunning the scripts:
 sha256sum -c SHA256SUMS.txt
 ```
 
+On Windows, run this command in Git Bash. The repository's `.gitattributes`
+sets `* text eol=lf`, so Git keeps LF line endings on checkout even when
+`core.autocrlf` is enabled. This preserves the bytes covered by the checksums.
+For an older checkout whose files already have CRLF line endings, use a fresh
+clone of release v0.2.1 or extract its source archive before checking hashes.
+
+
 ## Small example
 
 ```python
@@ -94,9 +101,8 @@ proofs or establish practical superiority over earlier algorithms.
 
 ## Version and citation
 
-Version 0.2.0 accompanies the journal revision. It publishes the existing
-implementations and recorded results, with refreshed documentation and
-citation metadata. The solver and validation files are unchanged from the
+Version 0.2.1 accompanies the journal revision. It adds consistent LF line
+endings for Windows checkouts and updates the documentation and checksums. The solver and validation files are unchanged from the
 version used for the reported experiments. See `CITATION.cff`; cite the
 exact release or commit when reproducing results.
 

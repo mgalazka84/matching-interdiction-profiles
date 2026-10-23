@@ -4,7 +4,7 @@ message: If you use this software, please cite the repository and the exact vers
 type: software
 title: 'Matching under Edge Failures: Complete Profiles at Bounded Treewidth — research
   code'
-version: 0.2.0
+version: 0.2.1
 authors:
 - family-names: Gałązka
   given-names: Marek
