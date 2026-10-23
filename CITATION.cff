@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the repository and the exact version
+  or commit used.
+type: software
+title: 'Matching under Edge Failures: Complete Profiles at Bounded Treewidth — research
+  code'
+version: 0.2.0
+authors:
+- family-names: Gałązka
+  given-names: Marek
+  orcid: https://orcid.org/0000-0003-0723-6617
+  affiliation: Adam Mickiewicz University, Poznań
+- family-names: Wdowicka
+  given-names: Hanna
+  orcid: https://orcid.org/0000-0003-2045-9831
+  affiliation: Poznań University of Economics and Business
+keywords:
+- matching interdiction
+- treewidth
+- dynamic programming
+- reproducibility
+abstract: Three research implementations compute complete matching-interdiction profiles
+  on graphs with supplied elimination orders or on partial 2-trees. The package includes
+  independent exhaustive small-graph validation, recorded results, and reproduction
+  instructions.
+date-released: '2026-10-23'
+repository-code: https://github.com/mgalazka84/matching-interdiction-profiles

@@ -1,0 +1,15 @@
+{
+  "atlas_graphs": 497,
+  "cost_assignments_per_atlas_graph": 3,
+  "instances": 1551,
+  "targets_and_witnesses": 6007,
+  "budget_queries": 12951,
+  "random_explicit_order_graphs": 60,
+  "maximum_width": 5,
+  "maximum_input_cost_bits": 129,
+  "all_checks_passed": true,
+  "seed": 20261020,
+  "python": "3.12.14",
+  "networkx": "3.7",
+  "elapsed_seconds": 2.314
+}

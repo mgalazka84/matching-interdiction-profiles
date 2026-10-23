@@ -1,0 +1,22 @@
+{
+  "atlas_graphs_checked": 497,
+  "atlas_cactus_forests": 221,
+  "atlas_cacti_connected": 103,
+  "atlas_graphs_rejected_width": 756,
+  "budget_values_and_witnesses_checked": 5339,
+  "random_width2_graphs_checked": 80,
+  "explicit_order_graphs_checked": 50,
+  "truncated_profiles_checked": 80,
+  "all_checks_passed": true,
+  "implementations_checked": [
+    "normalized_profiles",
+    "odd_components"
+  ],
+  "counts_apply_to_each_implementation": true,
+  "maximum_width_explicit_order": 5,
+  "max_observed_states_per_budget_width2": 19,
+  "seed": 20261019,
+  "python": "3.12.14",
+  "networkx": "3.7",
+  "elapsed_seconds": 3.887
+}
